@@ -1,0 +1,37 @@
+{
+  "team_id": "TODO-fill-in-your-registered-team-id",
+  "domain": "agriculture",
+  "language_scope": ["en", "yo", "ha", "pcm"],
+  "african_alpha_claim": true,
+  "budget_laptop_claim": true,
+  "submitter": {
+    "name": "TODO-your-name",
+    "email": "TODO-your-email@domain.com",
+    "github_handle": "TODO-your-github-handle"
+  },
+  "cross_disciplinary_pairing": {
+    "discipline": "agriculture",
+    "load_bearing": true,
+    "description": "Structured knowledge base (crop calendars, fertilizer rates, agrochemical registrations) plus retrieval over Nigerian extension bulletins grounds every answer in verifiable agronomic fact rather than model recall, targeting extension agents and agrodealers operating fully offline."
+  },
+  "test_prompts": [
+    {
+      "prompt_id": "tp_001",
+      "prompt": "When should I plant maize in Oyo State, and what NPK rate should I apply?"
+    },
+    {
+      "prompt_id": "tp_002",
+      "prompt": "My maize leaves have ragged holes and there is sawdust-like material in the whorl. What is wrong and what should I do?"
+    }
+  ],
+  "model": {
+    "name": "TODO-e.g.-Qwen3-1.7B-Instruct-Q4_K_M",
+    "runtime": "llama.cpp",
+    "quantization": "GGUF Q4_K_M",
+    "parameters_estimate": "1.7B",
+    "packaging": "binary_bundle"
+  },
+  "_runtime": {
+    "model_path": "model/your-model.gguf"
+  }
+}

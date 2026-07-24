@@ -1,0 +1,15 @@
+data/raw/
+*.gguf
+model/*.gguf
+__pycache__/
+*.pyc
+.venv/
+.uv-cache/
+.pytest_cache/
+.ruff_cache/
+results.json
+submission.json
+audit.json
+verdict.json
+report/*.docx
+.DS_Store

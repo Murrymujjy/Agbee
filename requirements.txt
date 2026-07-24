@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+rank_bm25
+faiss-cpu
+sentence-transformers   # for multilingual-e5-small
+psutil
+numpy
+pydantic
+streamlit                # local pipeline test UI only — not part of the graded submission
